@@ -60,6 +60,10 @@ img {
 .active {
   color: #2196f3;
 }
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 /* .........HEADER........ */
 .header {
   padding-top: 24px;
@@ -117,25 +121,31 @@ img {
 .header-mail {
   color: #757575;
 }
-.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
+
+
 
 /* .........HERO.......... */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-image: url("../images/hero.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero.jpg");
   background-position: center;
-  background-size: auto;
+  background-size:cover;
   background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  
 }
 .container-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 .hero-title {
   color: var(--hero-title-color);
