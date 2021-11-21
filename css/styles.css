@@ -178,6 +178,12 @@ img {
   border-radius: 4px;
 }
 /* ...........ABOUT.......... */
+.icon-antenna {
+  display: block;
+  width: 270px;
+  height: 120px;
+  fill:#757575;
+}
 .about-section {
   background: #ffffff;
 }
