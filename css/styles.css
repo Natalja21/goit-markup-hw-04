@@ -41,10 +41,7 @@ img {
   text-decoration: none;
   color: #212121;
 }
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -102,24 +99,33 @@ img {
   color: #212121;
 }
 
-.header-item {
+.header-item, .header-contacts-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.header-item,
-.header-mail {
+.header-item {
   margin-right: 50px;
 }
+
 .header-item:last-child {
   margin-right: 0px;
 }
-
-.header-tel,
-.header-mail {
+.header-contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-contacts-link {
   color: #757575;
+}
+.header-icons {
+  fill: currentColor;
+}
+
+.header-contacts-link:hover, .header-contacts-link:focus {
+   color: #2196f3;
+
 }
 
 /* .........HERO.......... */
@@ -282,7 +288,6 @@ img {
 .command-social-item {
   width: 44px;
   height: 44px;
-  
 }
 .command-social-item + .command-social-item {
   margin-left: 10px;
@@ -291,21 +296,19 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  color:#AFB1B8;
-
-  }
-.command-social-icon  {
-  fill:currentColor;
+  color: #afb1b8;
 }
-.command-social-link:hover, 
+.command-social-icon {
+  fill: currentColor;
+}
+.command-social-link:hover,
 .command-social-link:focus {
-  color: #FFFFFF;
-  background-color: #2196F3;
+  color: #ffffff;
+  background-color: #2196f3;
 }
-
 
 /* ...........FOOTER.......... */
 .footer-section {
