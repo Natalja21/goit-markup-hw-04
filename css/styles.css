@@ -122,8 +122,6 @@ img {
   color: #757575;
 }
 
-
-
 /* .........HERO.......... */
 .hero {
   padding-top: 200px;
@@ -135,17 +133,15 @@ img {
     ),
     url("../images/hero.jpg");
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
-  
 }
 .container-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .hero-title {
   color: var(--hero-title-color);
@@ -183,9 +179,8 @@ img {
   height: 160px;
   padding: 25px 100px;
   margin-bottom: 30px;
-  fill: #F5F4FA;
+  fill: #f5f4fa;
   border-radius: 4px;
-  
 }
 .about-section {
   background: #ffffff;
@@ -277,9 +272,30 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 16px;
+}
+.command-social-list {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
-
+.command-social-item {
+  width: 44px;
+  height: 44px;
+  
+}
+.command-social-item + .command-social-item {
+  margin-left: 10px;
+}
+.command-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  }
+.command-social-icon  {
+  fill-opacity: #AFB1B8;
+}
 /* ...........FOOTER.......... */
 .footer-section {
   background: #2f303a;
