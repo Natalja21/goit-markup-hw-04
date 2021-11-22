@@ -291,10 +291,13 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  display: block;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
   }
 .command-social-icon  {
-  fill-opacity: #AFB1B8;
+  fill-opacity:#AFB1B8;
 }
 /* ...........FOOTER.......... */
 .footer-section {
