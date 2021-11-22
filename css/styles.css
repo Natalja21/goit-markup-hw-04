@@ -178,7 +178,13 @@ img {
   border-radius: 4px;
 }
 /* ...........ABOUT.......... */
-
+.about-icon {
+  width: 270px;
+  height: 160px;
+  padding: auto;
+  margin-bottom: 30px;
+  
+}
 .about-section {
   background: #ffffff;
 }
