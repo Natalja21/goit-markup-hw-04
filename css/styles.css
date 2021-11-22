@@ -149,6 +149,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .hero-title {
   color: var(--hero-title-color);
@@ -184,7 +185,14 @@ img {
 .container-icon {
   width: 270px;
   height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .about-section {
   background: #ffffff;
 }
