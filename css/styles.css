@@ -183,6 +183,8 @@ img {
   height: 160px;
   padding: 25px 100px;
   margin-bottom: 30px;
+  fill: #F5F4FA;
+  border-radius: 4px;
   
 }
 .about-section {
