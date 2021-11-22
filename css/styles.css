@@ -294,12 +294,19 @@ img {
   display:flex;
   justify-content: center;
   align-items: center;
+  color:#AFB1B8;
 
   }
 .command-social-icon  {
-  fill:#AFB1B8;
-  
+  fill:currentColor;
 }
+.command-social-link:hover, 
+.command-social-link:focus {
+  color: #FFFFFF;
+  background: #2196F3;
+}
+
+.command-social-link:
 /* ...........FOOTER.......... */
 .footer-section {
   background: #2f303a;
