@@ -421,43 +421,29 @@ img {
 .footer-sidebar-item {
   width: 44px;
   height: 44px;
-  /* border-radius: 50%;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-  ); */
+  
 }
 .footer-sidebar-item + .footer-sidebar-item {
   margin-left: 10px;
 }
-/* .footer-sidebar-link {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-  );
-  color: #FFFFFF;
-} */
+
 .footer-sidebar-link {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #FFFFFF;
+  border-radius: 50%;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
   );
-  color: #FFFFFF;
 }
 .footer-social-icon {
  fill: currentColor;
 }
+
 .footer-sidebar-link:hover,
 .footer-sidebar-link:focus {
   color: #ffffff;
