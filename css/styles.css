@@ -435,10 +435,7 @@ img {
   align-items: center;
   color: #FFFFFF;
   border-radius: 50%;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-  );
+  background: rgba(255, 255, 255, 0.1);
 }
 .footer-social-icon {
  fill: currentColor;
