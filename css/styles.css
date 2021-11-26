@@ -128,7 +128,6 @@ img {
 .header-contacts-link {
   color: #757575;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .header-icons {
