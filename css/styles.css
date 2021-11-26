@@ -127,6 +127,9 @@ img {
 }
 .header-contacts-link {
   color: #757575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-icons {
   fill: currentColor;
@@ -137,6 +140,7 @@ img {
 .header-contacts-link:focus {
   color: #2196f3;
 }
+
 
 /* .........HERO.......... */
 .hero {
